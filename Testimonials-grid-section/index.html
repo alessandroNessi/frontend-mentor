@@ -6,6 +6,11 @@
 
   <link rel="icon" type="img/png" sizes="32x32" href="./img/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <!-- ////google font -->
   <title>Frontend Mentor | Testimonials grid style</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,19 +23,38 @@
     <div class="layout">
         <div class="item a item__text--white">
           <div class="item__a--backgroundQuote">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut illo atque nihil! Necessitatibus veniam voluptatem ipsum laboriosam, perspiciatis delectus odit, numquam unde recusandae quae dolorum consequuntur tenetur saepe illum eum.
+            <div class="item__container">
+              <div class="item__header clearfix">
+                <img class="left item__header__image--logo" src="img/image-daniel.jpg" alt="daniel's picture">
+                <div class="left item__header__text--margin">
+                  <h3>Daniel Clifford</h3>
+                  <p>Verified Graduate</p>
+                </div>
+              </div>
+              <h2 class="item__spacing">
+                I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+    in the company I joined. I honestly feel I got every penny’s worth.
+              </h2>
+              <p>
+                “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+                transition and have heard some people who had an amazing experience here. I signed up 
+                for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+                The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+                the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+              </p>
+            </div>
           </div>
         </div>
-        <div class="item b item__text--white">
+        <div class="item b item__text--white item__spacing">
           ciao
         </div>
-        <div class="item c">
+        <div class="item c item__spacing">
           miao
         </div>
-        <div class="item d">
+        <div class="item d item__spacing">
           bau
         </div>
-        <div class="item e item__text--white">
+        <div class="item e item__text--white item__spacing">
           cippalippa
         </div>
     </div>
